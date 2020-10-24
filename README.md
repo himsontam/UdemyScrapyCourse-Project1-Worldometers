@@ -17,6 +17,7 @@ Link to scrapy: https://www.worldometers.info/world-population/population-by-cou
 
 - Create Scrapy spider -------> scrapy genspider countries www.worldometers.info/world-population/population-by-country
 
+- Export Excel Command -----> scrapy crawl countries -o population_dataset.csv
 
 # Anaconda command: 
 - install dependencies ----> conda install -c conda-forge scrapy==1.6 pylint autopep8 -y
