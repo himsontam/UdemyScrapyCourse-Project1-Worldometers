@@ -12,7 +12,7 @@ Link to scrapy: https://www.worldometers.info/world-population/population-by-cou
 - Create New Scrpay Project -------> scrapy startproject worldometers
 
 - You can start your first spider with:
-    - cd national_debt
+    - cd worldometers
     - scrapy genspider example example.com
 
 - Create Scrapy spider -------> scrapy genspider countries www.worldometers.info/world-population/population-by-country
